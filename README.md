@@ -13,10 +13,6 @@ Com a utilização do projeto de mesclar PDFs as limitações e lentidões apres
 
 ## Antes dos arquivos
 
-![](https://github.com/AmandaAntonio/Mesclar_Pdf/blob/main/01.%20Primeiro%20Arquivo.png)
-![](https://github.com/AmandaAntonio/Mesclar_Pdf/blob/main/02.%20Segundo%20Arquivo.png)
-
-
 ## Projeto
 
 Em uma IDE para Python instalar a Biblioteca PyPDF2
