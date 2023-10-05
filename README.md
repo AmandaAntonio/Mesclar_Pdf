@@ -13,7 +13,7 @@ Com a utilização do projeto de mesclar PDFs as limitações e lentidões apres
 
 ### Antes dos arquivos 
 
-[Clique aqui para visualizar](https://github.com/AmandaAntonio/Mesclar_Pdf/tree/main/Arquivos.png)
+[Clique aqui para visualizar](https://github.com/AmandaAntonio/Mesclar_Pdf/tree/main/arquivos)
 
 ## Projeto
 
