@@ -11,33 +11,52 @@ Com a utilização do projeto de mesclar PDFs as limitações e lentidões apres
 
 *Premissas: Os arquivos devem estrar na ordem exata da mesclagem para o resultado ser o esperado. Dica: numerar os arquivos 01,02,03 etc.* 
 
-## Antes dos arquivos
+### Antes dos arquivos 
+
+[Clique aqui para ver-los em png](https://github.com/AmandaAntonio/Mesclar_Pdf/tree/main/Arquivos.png)
 
 ## Projeto
 
 Em uma IDE para Python instalar a Biblioteca PyPDF2
 
-imagem
 
+```
+!pip install PyPDF2
+```
 Depois carrega as Bibliotecas necessárias 
 
-imagem
+```
+import os
+import PyPDF2
+```
 
 Agora é só criar o “mesclador” 
 
-imagem
+```
+mesclar = PyPDF2.PdfMerger()
+```
 
-Criar um listador para percorrer a pasta com arquivos em PDF e atribuir a uma variável 
+Criar um "listador" para percorrer a pasta com arquivos em PDF e atribuir a uma variável 
 
-imagem
+```
+lista_arquivos = os.listdir('arquivos')
+lista_arquivos.sort() 
+```
 
 Utilizar um laço de repetição com objetivo de mesclar os arquivos
 
-Imagem
+```
+for arquivo in lista_arquivos: 
+  if '.pdf' in arquivo:  
+    mesclar.append(f'arquivos/{arquivo}') 
+```
 
 Salva o novo arquivo criado
 
-imagem
+```
+mesclar.write('Arquivo Final.pdf')
+```
 
-## Depois dos arquivos
+### Depois dos arquivos
+
 
