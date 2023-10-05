@@ -9,11 +9,11 @@ Com a utilização do projeto de mesclar PDFs as limitações e lentidões apres
 
 # Passo a passo para a criar do “Mesclador” de PDFs
 
-*Premissas: Os arquivos devem estrar na ordem exata da mesclagem para o resultado ser o esperado. Dica: numerar os arquivos 01,02,03 etc.* 
+*Atenção: Os arquivos devem estrar na ordem exata da mesclagem para o resultado ser o esperado. Dica: numerar os arquivos 01,02,03 etc.* 
 
 ### Antes dos arquivos 
 
-[Clique aqui para ver-los em png](https://github.com/AmandaAntonio/Mesclar_Pdf/tree/main/Arquivos.png)
+[Clique aqui para visualizar](https://github.com/AmandaAntonio/Mesclar_Pdf/tree/main/Arquivos.png)
 
 ## Projeto
 
@@ -58,5 +58,6 @@ mesclar.write('Arquivo Final.pdf')
 ```
 
 ### Depois dos arquivos
+[Clique aqui para visualizar](https://github.com/AmandaAntonio/Mesclar_Pdf/blob/main/Arquivo%20Final.pdf)
 
 
